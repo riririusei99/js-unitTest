@@ -1,4 +1,3 @@
-// import Calculator from '../src/Calculator';
 const Calculator = require('../src/Calculator');
 const calculator = new Calculator('riririusei99');
 const assert = require('power-assert');

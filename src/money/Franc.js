@@ -1,10 +1,10 @@
 const Money = require('./Money');
 
-module.exports = class Dollar extends Money{
+module.exports = class Franc extends Money{
   constructor(amount){
     super(amount);
   }
   times(multiplier){
-    return new Dollar(this.amount * multiplier);
+    return new Franc(this.amount * multiplier);
   }
 };

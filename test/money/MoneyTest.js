@@ -32,3 +32,9 @@ describe('[Chapter5] 5CHF * 2 = 10CHF', function(){
     assert(new Franc(15).amount === product.amount);
   });
 });
+
+describe('[Chapter7]Comparison Franc and Dollar', function(){
+  it('should return false', function(){
+    assert.ok(new Franc(5).equals(new Dollar(5)) === false);
+  });
+});
